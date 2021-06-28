@@ -1,0 +1,46 @@
+header {
+  padding: 0 2rem;
+  background-color: var(--Light-Color);
+  background-image: var(--Gradient-Color);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+
+  i {
+    font-size: 3rem;
+    display: block;
+  }
+
+  .homeIcon {
+    padding-right: 0.5rem;
+  }
+
+  span {
+    display: none;
+  }
+
+  .logo {
+    width: 15rem;
+    padding: 1rem 0;
+  }
+
+  .iconCart,
+  .iconHome {
+    display: flex;
+    align-items: center;
+    color: var(--Dark-Color);
+
+    &:hover {
+      color: var(--Light-Color);
+    }
+
+    span {
+      font-weight: bold;
+    }
+  }
+}

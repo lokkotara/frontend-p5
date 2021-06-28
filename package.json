@@ -1,0 +1,23 @@
+{
+  "name": "p5frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "buildTemplate": "node ./node_modules/gulp/bin/gulp.js makeTemplate",
+    "scss2css": "node ./node_modules/gulp/bin/gulp.js scss2css",
+    "watch": "node ./node_modules/gulp/bin/gulp.js watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "concurrently": "^5.3.0",
+    "eslint": "^7.16.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-ejs": "^5.1.0",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^5.0.0"
+  }
+}

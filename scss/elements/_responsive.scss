@@ -1,0 +1,65 @@
+// format tablette
+@media screen and (min-width:768px) {
+  header {
+    padding: 0 3rem;
+
+    span {
+      display: block;
+    }
+  }
+
+  .singleProduct {
+    flex-flow: row;
+
+    img {
+      border-radius: 2.5rem 0 0 2.5rem;
+      min-width: 34rem;
+    }
+
+    figure {
+      max-width: 50%;
+    }
+  }
+
+  .confirmationWrapper {
+    padding: 5rem;
+  }
+
+  .mainCart {
+    table {
+      img {
+        max-width: 25rem;
+      }
+
+      tr {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .trashIcon {
+        padding-right: 2rem;
+      }
+    }
+  }
+
+  footer {
+    ul {
+      width: 80%;
+    }
+  }
+}
+
+// format laptop
+@media screen and (min-width:940px) {
+  .teddyCard {
+    width: auto;
+
+    figure {
+      max-width: 45rem;
+    }
+
+    img {
+      max-height: 28rem;
+    }
+  }
+}

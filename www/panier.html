@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vue d'ensemble du panier | Orinounours</title>
+  <link rel="icon" type="image/png" href="./images/favicon.png">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10" defer></script>
+  
+  <!-- pages-->
+  <script src="js/pages/panier.js"></script>
+  
+  <!-- composants -->
+  <script src="js/components/cart.js"></script>
+
+  <!-- éléments structurants -->
+  <script src="js/dataManager.js"></script>
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+  <nav>
+    <a href="./index.html " class="iconHome" aria-label="Retourner à l'accueil">
+      <i class="fas fa-home homeIcon"></i>
+      <span>Accueil</span>
+    </a>
+    <img src="./images/logo.png" alt="Logo Orinoco" class="logo">
+  </nav>
+</header>
+  <main class="mainCart">
+    <h1>Vue d'ensemble de vos achats</h1>
+    <p>
+      Parcourez en détail les produits que vous avez sélectionnés sur notre site. Pour finaliser votre commande, merci
+      de remplir le formulaire ci-dessous.
+    </p>
+    <h2>Récapitulatif de votre panier</h2>
+    <table class="cartSummary" >
+      <tbody class="cartSummaryBody">
+        
+      </tbody>
+      <tfoot class="displayTotal" id="displayTotal">
+        
+      </tfoot>
+    </table>
+    <h2 id="formTitle">Formulaire de commande</h2>
+    <form class="form" id="form" method="POST">
+      
+    </form> 
+  </main>
+  <footer>
+  <ul>
+    <li>
+      <a href="#termsOfUse" target="_blank" rel="noopener noreferrer"> Conditions d'utilisation</a>
+    </li>
+    <li>
+      <div class="socialIcons">
+        <a href="https://www.facebook.com/TeddyBears4U" target="_blank" rel="noopener noreferrer" aria-label="Lien vers Facebook">
+          <i class="fab fa-facebook-square"></i>
+        </a>
+        <a href="https://twitter.com/giantteddy" target="_blank" rel="noopener noreferrer" aria-label="Lien vers Twitter">
+          <i class="fab fa-twitter-square"></i>
+        </a>
+        <a href="https://www.pinterest.fr/vickylougher/_created/"
+          target="_blank" rel="noopener noreferrer" aria-label="Lien vers Pinterest">
+          <i class="fab fa-pinterest-square"></i>
+        </a>
+        <a href="https://www.instagram.com/explore/tags/teddybear/" target="_blank" rel="noopener noreferrer" aria-label="Lien vers Instagram">
+          <i class="fab fa-instagram-square"></i>
+        </a>
+      </div>
+    </li>
+    <li>
+      <a href="#legalNotice" target="_blank" rel="noopener noreferrer">Mentions légales</a>
+    </li>
+  </ul>
+</footer>
+</body>
+
+</html>
