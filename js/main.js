@@ -14,11 +14,11 @@ function definePage() {
   var url = window.location.pathname;
   
   switch (url) {
-    case "/produit.html":
+    case "/frontend-p5/produit.html":
       return new Product(document.querySelector("div.singleCardWrapper"), params.get("_id"));
-    case "/panier.html":
+    case "/frontend-p5/panier.html":
       return new Panier(document.querySelector("tbody.cartSummaryBody"));
-    case "/confirmation.html":
+    case "/frontend-p5/confirmation.html":
       return new Confirmation(document.querySelector("main.mainConfirmation"));
     default:
       return new Home(document.querySelector("div.cardsWrapper"));
